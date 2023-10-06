@@ -8,7 +8,7 @@
   "bin": "./bin/index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest --config ./vitest.config.js",
+    "test": "vitest run --config ./vitest.config.ts",
     "lint": "npx eslint src test",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src test --check",
@@ -24,6 +24,7 @@
     "@types/node": "20.8.2",
     "@typescript-eslint/eslint-plugin": "6.7.4",
     "@typescript-eslint/parser": "6.7.4",
+    "@vitest/coverage-v8": "0.34.6",
     "eslint": "8.50.0",
     "prettier": "3.0.3",
     "ts-node": "10.9.1",
