@@ -10,6 +10,6 @@ class PE {
   }
 }
 
-export default function parse(input: string): PE {
+export default function(input: string): PE {
   return new PE(input);
 }
