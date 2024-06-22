@@ -1,6 +1,5 @@
 import EventEmitter from "node:events";
 import { readFile, open } from "node:fs/promises";
-import { as } from "vitest/dist/reporters-5f784f42.js";
 
 enum SizeConstants {
   BYTE = 1,
